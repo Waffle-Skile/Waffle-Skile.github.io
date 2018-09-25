@@ -2,6 +2,9 @@
 
 ## Team Project #1 소개
 
+### 과제 제출 방법
+
+
 ## 버전 관리의 기본 개념
 
 ### git이란?
@@ -46,3 +49,6 @@
 ### stash
 
 ### .gitignore
+
+
+## Reference
