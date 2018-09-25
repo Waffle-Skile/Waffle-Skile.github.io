@@ -2,6 +2,8 @@
 
 ## Team Project #1 소개
 
+![](team_project_sample.png?raw=true)
+
 ### 과제 제출 방법
 
 
