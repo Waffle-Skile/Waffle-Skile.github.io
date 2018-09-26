@@ -2,6 +2,9 @@
 
 ## Team Project #1: 조별 소개 페이지 만들기
 
+> 이 과제는 2주차에 HTML, CSS까지 배운 다음에 수행할 수 있습니다.
+> 미리 알려드리는 것이니 지금 이해가 안되는 부분이 있다고 걱정하실 필요는 없습니다.
+
 ![](team_project_sample.png?raw=true)
 
 ### Specification
@@ -52,9 +55,33 @@
 
 ## 버전 관리의 기본 개념
 
-### git이란?
+### Git이란?
+> **Git** is a **version-control system** for tracking changes in computer files and coordinating work on those files among multiple people.
+> *Retrieved from https://en.wikipedia.org/wiki/Git, 2018년 9월 26일 접속*
 
-### git 설치
+**version**은, 어떤 작업물이 만들어지는 과정 속의 한 독자적인 **시점**(時點)으로 생각할 수 있습니다. 독자적이라 함은, 해당 시점이 단지 중간 과정으로써 뿐만 아니라 그 자체로서도 의미를 갖고 있어야 한다는 뜻입니다.
+
+![](pic1.png?raw=true)
+
+위 사진처럼 **잘 써야만 하는 글**을 쓰다 보면 글을 끊임없이 수정하게 됩니다.
+글을 끊임없이 수정하다 보면 예전에는 뭐라고 썼는지 참고하고 싶을 수도 있고, 퇴고한게 마음에 안들면 아예 특정 시점으로 되돌아가고 싶을 때도 생깁니다.
+이럴 때를 대비해서 특정 시점에 본인이 작성한 글을 다른 파일로 백업해두는 경험이 있으실텐데, 이것이 바로 가장 기초적인 **version control** 입니다.
+
+하지만 그렇다고 타자 한 번 칠 때마다 파일을 백업하진 않겠죠. 혹여 나중에라도 지금 시점에 뭐라 썼는지를 아는 게 도움이 될 것 같을 때, 독자적인 하나의 버전으로써 관리하게 될 것입니다.
+
+첫 인용문에서 *tracking changes in computer files*라 함은, 이런 것을 의미한 것입니다. 프로그램을 개발할 때는 기존의 기능을 추가/삭제/수정하거나, 버그를 고치거나, 성능을 개선시킨 순간을 하나의 version으로 봅니다.
+
+**version-control**의 또다른 친숙한 사례로는 [Wikipedia](wikipedia.org)를 들 수 있습니다.
+
+![](pic2.png?raw=true)
+
+[영문위키 Git 문서의 View History 탭](https://en.wikipedia.org/w/index.php?title=Git&action=history)을 보면, 언제 누가 얼마나 수정했는지를 한 눈에 볼 수 있습니다.
+위키피디아에서 하나의 문서를 작성하기 위해 다수의 사람들이 문서의 각 부분에 기여하는 것처럼, Git이라는 시스템을 활용하면 다수의 사람들이 하나의 프로젝트를 두고 개발하는 과정을 효율적으로 관리할 수 있습니다.
+
+Git으로 관리한 버전 히스토리는 원격 저장소에 올려 다른 사용자와 공유할 수 있고, branch 시스템을 이용하여 각 사용자가 따로 작업한 기록을 합칠 수도 있습니다.
+이런 특징이 Git에게 *coordinating work on those files among multiple people*를 가능하게 했으며, 자세한 내용은 곧 다뤄보겠습니다.
+
+### Git 설치
 
 ### SourceTree 설치
 
@@ -82,7 +109,7 @@
 
 ### merge
 
-#### conflict
+#### 충돌(conflict)
 
 ### Git-flow
 
@@ -97,3 +124,4 @@
 
 
 ## Reference
+* [GIT(GUI) - opentutorials.org](https://opentutorials.org/course/1492)
