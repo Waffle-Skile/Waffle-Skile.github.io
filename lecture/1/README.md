@@ -168,6 +168,9 @@ private repository를 만들어야하는 데, 이때는 결제가 필요합니�
 
 Issue를 신고하는 것에서 한 걸음 더 나아가, 실제로 자신이 코드를 수정하고 그 수정 사항을 저장소 관리자에게 Merge해달라고 요청하는 과정을 **Pull Request**라고 부릅니다.
 
+![](pic7.png?raw=true)
+Pull Request가 도착하면 저장소 주인은 commits를 확인하고 merge 여부를 결정함으로써 pull request가 종료된다.
+
 ### Repository 관리
 
 Collaborators에서 본인이 아닌 다른 사람의 GitHub 계정을 추가함으로써 이 저장소에 push할 수 있도록 허용할 수 있습니다.
