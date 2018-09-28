@@ -169,12 +169,16 @@ private repository를 만들어야하는 데, 이때는 결제가 필요합니�
 Issue를 신고하는 것에서 한 걸음 더 나아가, 실제로 자신이 코드를 수정하고 그 수정 사항을 저장소 관리자에게 Merge해달라고 요청하는 과정을 **Pull Request**라고 부릅니다.
 
 Pull Request를 보내기 위해선 먼저 GitHub에서 해당 저장소를 Fork해와야 합니다.
-![](pig6.png?raw=true)
 
-그 후 fork한 저장소에서 본인이 하고 싶었던 commit을 끝내고 push합니다.
+![](pic6.png?raw=true)
+
+그 후 fork한 저장소에서 **새로운 branch를 만듭니다**.
+새로운 branch에서 본인이 하고 싶었던 commit을 끝내고 push합니다.
+그후 GitHub에 접속해서 원본 저장소에 Pull Request를 보내면 됩니다.
 
 ![](pic7.png?raw=true)
-Pull Request가 도착하면 저장소 주인은 commits를 확인하고 merge 여부를 결정함으로써 pull request가 종료된다.
+
+Pull Request가 도착하면 저장소 주인은 commits를 확인하고, merge 여부를 결정합니다. 이로써 Pull Request를 위한 모든 과정이 끝났습니다.
 
 ### Repository 관리
 
