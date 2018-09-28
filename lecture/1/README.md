@@ -89,7 +89,7 @@ Git으로 관리한 버전 히스토리는 원격 저장소에 올려 다른 사
 
 ### SourceTree 설치
 
-* [Sourcetree | Free Git GUI for Mac and Windows](https://www.sourcetreeapp.com/)
+* [Sourcetree - Free Git GUI for Mac and Windows](https://www.sourcetreeapp.com/)
 
 ### 저장소(Repository) 만들기
 * **작업 공간**(*Working Directory*): 파일이 편집되는 디렉토리(폴더)
