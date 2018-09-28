@@ -51,7 +51,7 @@
 부득이하게 기한을 넘겼다고 할 지라도 완성되는 대로 제출해주세요.
 
 * public repository로 작업했을 경우, 저장소 링크를 걸어주세요.
-* private repository로 작업했을 경우, @Wafle-Skile 을 Collaborators에 추가하고 repository 이름을 알려주세요.
+* private repository로 작업했을 경우, [Wafle-Skile](https://github.com/Waffle-Skile)을 Collaborators에 추가하고 repository 이름을 알려주세요.
 
 ## 버전 관리의 기본 개념
 
@@ -152,13 +152,26 @@ private repository를 만들어야하는 데, 이때는 결제가 필요합니�
 
 ### Repository 화면
 
+![](pic4.png?raw=true)
+
 ### Issue Tracker
+
+![](pic5.png?raw=true)
+
+버그를 신고하거나 제안할 사항이 있는 경우, 해당 GitHub 저장소에 **Issue**를 등록할 수 있습니다.
+저장소의 관리자는 Issue가 해결되었다고 판단할 경우 Issue를 닫음으로써 마무리짓습니다.
+
+본 세미나에서는 과제 제출 여부를  [본 Repository](https://github.com/Waffle-Skile/Waffle-Skile.github.io)의 이슈 트래커 기능을 이용하여 확인할 예정입니다.
+과제 제출이 아니더라도 세미나 자료에 대한 질문, 제안 사항이 있을 경우 자유롭게 활용해주시길 바랍니다.
 
 ### Pull Request
 
+Issue를 신고하는 것에서 한 걸음 더 나아가, 실제로 자신이 코드를 수정하고 그 수정 사항을 저장소 관리자에게 Merge해달라고 요청하는 과정을 **Pull Request**라고 부릅니다.
+
 ### Repository 관리
 
-Collaborators
+Collaborators에서 본인이 아닌 다른 사람의 GitHub 계정을 추가함으로써 이 저장소에 push할 수 있도록 허용할 수 있습니다.
+private repository의 경우 Collaborators에 추가된 계정만 저장소를 열람할 수 있습니다.
 
 ## branch
 
