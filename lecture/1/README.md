@@ -85,7 +85,7 @@ Git으로 관리한 버전 히스토리는 원격 저장소에 올려 다른 사
 
 > 앞으로 작성될 모든 문서에서 개발환경은 Windows를 기준으로 진행합니다.
 
-* [Git - Downloads](https://git-scm.com/downloads)에서 본인의 운영체제에 맞는 버전을 설치하면 된다.
+* [Git - Downloads](https://git-scm.com/downloads)에서 본인의 운영체제에 맞는 버전을 설치하면 됩니다.
 
 ### SourceTree 설치
 
