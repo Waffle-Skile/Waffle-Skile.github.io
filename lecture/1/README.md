@@ -168,6 +168,11 @@ private repository를 만들어야하는 데, 이때는 결제가 필요합니�
 
 Issue를 신고하는 것에서 한 걸음 더 나아가, 실제로 자신이 코드를 수정하고 그 수정 사항을 저장소 관리자에게 Merge해달라고 요청하는 과정을 **Pull Request**라고 부릅니다.
 
+Pull Request를 보내기 위해선 먼저 GitHub에서 해당 저장소를 Fork해와야 합니다.
+![](pig6.png?raw=true)
+
+그 후 마치 fork한 저장소에서 본인이 하고 싶었떤 commit을 끝내고 push합니다.
+
 ### Repository 관리
 
 Collaborators에서 본인이 아닌 다른 사람의 GitHub 계정을 추가함으로써 이 저장소에 push할 수 있도록 허용할 수 있습니다.
