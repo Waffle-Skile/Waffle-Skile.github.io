@@ -129,10 +129,10 @@ tag는 `<tagname>`으로 시작해서 `</tagname>`으로 끝나며, 경우에 �
 
 <dl>
   <dt>Description List</dt>
-  <dd>가장 바깥에는 `<dl>` HTML tag가 있다.</dd>
+  <dd>가장 바깥에는 `&lt;dl&gt;` HTML tag가 있다.</dd>
 
-  <dt>title은 `<dt>` tag로 감싼다.</dt>
-  <dd>description은 `<dd>` tag로 감싼다.</dd>
+  <dt>title은 `&lt;dt&gt;` tag로 감싼다.</dt>
+  <dd>description은 `&lt;dd&gt;` tag로 감싼다.</dd>
 </dl>
 
 #### 입력 양식(form)
