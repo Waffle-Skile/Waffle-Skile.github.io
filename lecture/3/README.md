@@ -372,13 +372,14 @@ Django에서는 MVT 패턴을 사용하나, 개념은 MVC와 다르지 않다.
 ```python
 # <project>/settings.py
 
-...
+# ...omitted...
 # Application definition
 
 INSTALLED_APPS = [
     'board.apps.BoardConfig',  # 추가
     'django.contrib.admin',
-...
+# ...omitted...
+]
 ```
 
 **Post Model 설계하기**
@@ -411,7 +412,7 @@ admin.site.register(Post)
 **admin 계정 등록하기**
 
 ```
-> python manage.py createsuperuser 
+> python manage.py createsuperuser
 > python manage.py runserver
 ```
 
