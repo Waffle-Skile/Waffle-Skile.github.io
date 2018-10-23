@@ -16,7 +16,7 @@
 10월 5일 | [HTML, CSS](2/) | 과제 1
 ~~10월 12일~~ | *휴강*
 10월 19일 | [Django (1)](3/)
-10월 26일 | Django (2) | [과제 2](3/#individual-project-2-게시판-만들기)
+10월 26일 | [Django (2)](4/) | [과제 2](3/#individual-project-2-게시판-만들기)
 11월 2일 | Django (3)
 ~~11월 9일~~ | *휴강*
 11월 16일 | JavaScript
