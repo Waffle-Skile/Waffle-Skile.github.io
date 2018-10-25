@@ -512,7 +512,7 @@ urlpatterns = [
 확인해서 공격자에 의한 간접적인 POST 요청을 거를 수 있습니다.
 
 Django는 CSRF 보호 기능을 기본값으로 지원하며,
-이를 사용하기 위해서는 DTL에서 `{% csrf_token %}`을
+이를 사용하기 위해서는 DTL에서 `&#123;% csrf_token %&#125;`을
 Form 태그 안에 넣어주시면 됩니다.
 
 ```html
