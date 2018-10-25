@@ -211,7 +211,7 @@ HTML 구조가 복잡해질수록 가독성도 떨어지고,
 `{{ title }}`이나 `{% if content %}` 등은
 [DTL(Django Template Language)](https://docs.djangoproject.com/en/2.1/topics/templates/#the-django-template-language)입니다.
 
-`{{ }}`는 변수를, `{% %}`는 logic을 표현하는 방식입니다.
+`{{ something }}`는 변수를, `{% something %}`는 logic을 표현하는 방식입니다.
 
 이제 `templates/index.html`을 Context(`title`, `content`)와 연결해서 웹 브라우저상에 표현해 보겠습니다.
 
