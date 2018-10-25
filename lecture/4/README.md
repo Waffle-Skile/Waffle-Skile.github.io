@@ -210,10 +210,10 @@ HTML 구조가 복잡해질수록 가독성도 떨어지고,
 {% endif %}
 ```
 
-`{{ title }}`이나 `&#123;% if content %&#125;` 등은
+`{{ title }}`이나 `{% if content %}` 등은
 [DTL(Django Template Language)](https://docs.djangoproject.com/en/2.1/topics/templates/#the-django-template-language)입니다.
 
-`{{ something }}`는 변수를, `&#123;% something %&#125;`는 logic을 표현하는 방식입니다.
+`{{ something }}`는 변수를, `{% something %}`는 logic을 표현하는 방식입니다.
 
 이제 `templates/index.html`을 Context(`title`, `content`)와 연결해서 웹 브라우저상에 표현해 보겠습니다.
 
@@ -514,7 +514,7 @@ urlpatterns = [
 확인해서 공격자에 의한 간접적인 POST 요청을 거를 수 있습니다.
 
 Django는 CSRF 보호 기능을 기본값으로 지원하며,
-이를 사용하기 위해서는 DTL에서 `&#123;% csrf_token %&#125;`을
+이를 사용하기 위해서는 DTL에서 `{% csrf_token %}`을
 Form 태그 안에 넣어주시면 됩니다.
 
 ```html
