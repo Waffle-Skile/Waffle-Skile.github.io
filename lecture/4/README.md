@@ -200,18 +200,18 @@ HTML 구조가 복잡해질수록 가독성도 떨어지고,
 
 ```html
 <!-- app_name/templates/index.html -->
-<h1>{{ title }}</h1>
-{% if content %}
-<p>{{ content }}</p>
-{% else %}
+<h1>&#123;&#123; title &#125;&#125;</h1>
+&#123;% if content %&#125;
+<p>&#123;&#123; content &#125;&#125;</p>
+&#123;% else %&#125;
 <p><em>내용이 없습니다.</em></p>
-{% endif %}
+&#123;% endif %&#125;
 ```
 
-`{{ title }}`이나 `&#123;% if content %&#125;` 등은
+`&#123;&#123; title &#125;&#125;`이나 `&#123;% if content %&#125;` 등은
 [DTL(Django Template Language)](https://docs.djangoproject.com/en/2.1/topics/templates/#the-django-template-language)입니다.
 
-`{{ something }}`는 변수를, `&#123;% something %&#125;`는 logic을 표현하는 방식입니다.
+`&#123;&#123; something &#125;&#125;`는 변수를, `&#123;% something %&#125;`는 logic을 표현하는 방식입니다.
 
 이제 `templates/index.html`을 Context(`title`, `content`)와 연결해서 웹 브라우저상에 표현해 보겠습니다.
 
@@ -221,10 +221,10 @@ from django.template import loader
 
 def detail(request):
     template = loader.get_template(template_name='index.html')
-    context = {
+    context = &#123;
         'title': 'Untitled',
         'content': None
-    }
+    &#125;
     return HttpResponse(template.render(context, request))
 ```
 
@@ -258,10 +258,10 @@ Django에서는 이러한 MVT model이 보편적이기 때문에,
 from django.shortcuts import render
 
 def detail(request):
-    return render(request, template_name='index.html', context={
+    return render(request, template_name='index.html', context=&#123;
         'title': 'Untitled',
         'content': None
-    })
+    &#125;)
 ```
 
 ### [Class-based View](https://docs.djangoproject.com/en/2.1/ref/class-based-views)
@@ -280,7 +280,7 @@ class DetailView(TemplateView):
     template_name = "index.html"
 
     def get_context_data(self, **kwargs):
-        return { 'title': 'Untitled', 'content': None }
+        return &#123; 'title': 'Untitled', 'content': None &#125;
 ```
 
 ```python
@@ -406,9 +406,9 @@ class DetailView(TemplateView):
     def get_context_data(self, **kwargs):
         try:
             p = Post.objects.get(pk=self.request.GET.get('id'))
-            return { 'title': p.title, 'content': p.content }
+            return &#123; 'title': p.title, 'content': p.content &#125;
         except ObjectDoesNotExist:
-            return { 'title': '없는 게시물입니다.', 'content': None }
+            return &#123; 'title': '없는 게시물입니다.', 'content': None &#125;
 ```
 
 #### URLconf
@@ -444,9 +444,9 @@ Class-based View에서는 상속된 메서드를 오버라이드해서
 def get_context_data(self, **kwargs):
     try:
         p = Post.objects.get(pk=kwargs.get('id', None))
-        return { 'title': p.title, 'content': p.content }
+        return &#123; 'title': p.title, 'content': p.content &#125;
     except ObjectDoesNotExist:
-        return { 'title': '없는 게시물입니다.', 'content': None }
+        return &#123; 'title': '없는 게시물입니다.', 'content': None &#125;
 ```
 
 ### POST method
@@ -518,7 +518,7 @@ Form 태그 안에 넣어주시면 됩니다.
 ```html
 <!-- same file above -->
 <form>
-{% csrf_token %}
+&#123;% csrf_token %&#125;
 <!-- omitted. -->
 </form>
 ```
@@ -547,7 +547,7 @@ class IndexView(TemplateView):
                 author=author,
                 content=content
             )
-            return redirect(f"/detail/{p.pk}")
+            return redirect(f"/detail/&#123;p.pk&#125;")
         else:
             return HttpResponse("<h1>Please fill in all fields.</h1>\n" +
                     '<a href="./">Return</a>')
@@ -596,8 +596,8 @@ Model 설계할 때와 비슷하지만 models 모듈의 Field가 아니라
 ```html
 <!-- html -->
 <form action="./" method="post">
-  {% csrf_token %}
-  {{ form.as_p }}
+  &#123;% csrf_token %&#125;
+  &#123;&#123; form.as_p &#125;&#125;
   <p><input type="submit" name="submit" value="Write"></p>
 </form>
 ```
@@ -618,7 +618,7 @@ class IndexView(FormView):
 
     def form_valid(self, form):
         p = Post.objects.create(**form.cleaned_data)
-        return redirect(f"/detail/{p.pk}")
+        return redirect(f"/detail/&#123;p.pk&#125;")
 ```
 
 Form에 입력된 내용이 유효한 경우,
