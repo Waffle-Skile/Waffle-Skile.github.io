@@ -53,7 +53,7 @@
 * 1조
 * [2조](https://github.com/Dorvin/testing)
 * [3조](https://github.com/sckimynwa/WaffleHomwork1)
-* 4조
+* [4조](https://github.com/stet-stet/waffle-hw1-group4)
 * [5조](https://github.com/parameciumajw/Waffle5)
 * [6조](https://gompu123.github.io/waffle-team-6/)
 * [7조](https://github.com/Kangji/waffle-7)
