@@ -116,4 +116,3 @@ merge가 되면 성공적으로 과제 제출이 끝난 것입니다.
 * 와플16기Rookies오픈채팅방
 * [세미나장이 만든 샘플](https://github.com/Waffle-Skile/DjangoSimpleCRUDBoard.git)
   - 현재는 **필수 기능(CRUD)** 과 비밀번호를 활용한 **글 작성자 인증 시스템** 만 구현되어 있습니다.
-  - 주말에 해당 프로젝트를 개인 서버에 올린 다음 URL을 공유해드릴 예정입니다.
