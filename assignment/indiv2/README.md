@@ -1,6 +1,6 @@
 # Individual Project #2: 게시판 만들기
 
-[#게시물](#게시물)과 [#CRUD](#CRUD) 스펙을 만족하는
+[#게시물](#게시물)과 [#CRUD](#crud) 스펙을 만족하는
 게시판 시스템을 Django로 구현하세요!
 
 아래 이미지는 참고용으로, 화면 구성, URL 매핑,
@@ -63,7 +63,6 @@ Collaborators에 **@Waffle-Skile** 을 추가해주시고 issue로 본인 저장
 fork 하셔서 직접 pull request를 보내주세요. 아래 `### 과제 제출 현황`에서
 하단 예시와 같이 본인의 GitHub ID와 레파지토리 링크를 함께 추가해주시면 됩니다.
 merge가 되면 성공적으로 과제 제출이 끝난 것입니다.
-
 ```
 * N조
   - [GitHub ID](https://github.com/GitHub-ID/RepositoryLink.git)
