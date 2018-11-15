@@ -1,5 +1,3 @@
-{% raw %}
-
 # JavaScript
 
 ## Prerequisite
@@ -614,5 +612,3 @@ jsp.withdraw(-100);
 * 작년 세미나 자료, [JavaScript - 서희수](https://wafflestudio.readthedocs.io/ko/latest/web-seminar-react-django/2-javascript.html)
 * [러닝 자바스크립트](https://book.naver.com/bookdb/book_detail.nhn?bid=12181869)
 * [MDN Web Docs - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-
-{% endraw %}
