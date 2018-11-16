@@ -28,12 +28,12 @@ JavaScript는 웹 브라우저에서 널리 사용되는 스크립트 언어이�
 강의 자료에 있는 JS 소스 코드를 실행시키는 방법에는 다음과 같이 여러 가지가 있습니다.
 
 1. Node.js 필요
-  1. 명령 프롬프트 창에서 `node`를 치면 JavaScript 코드를 한 줄씩 실행시킬 수 있는 셸이 실행됩니다.
-  2. `*.js` 파일에 코드를 작성하고 명령 프롬프트 창에서 `node [파일_이름].js`를 입력하면 해당 파일 내 전체 코드가 실행된 결과가 출력됩니다.
+  - 명령 프롬프트 창에서 `node`를 치면 JavaScript 코드를 한 줄씩 실행시킬 수 있는 셸이 실행됩니다.
+  - `*.js` 파일에 코드를 작성하고 명령 프롬프트 창에서 `node [파일_이름].js`를 입력하면 해당 파일 내 전체 코드가 실행된 결과가 출력됩니다.
 2. 웹 브라우저 필요
-  1. 개발자 도구의 콘솔(Chrome의 경우, <kbd>F12</kbd> - *Console* 탭)에는 JS 코드를 한 줄씩 실행시킬 수 있는 셸이 있습니다.
-  2. JS 코드를 `<script>` 태그로 감싼 HTML 파일을 작성하고 웹 브라우저로 해당 페이지를 엽니다.
-  3. JS 코드를 `*.js` 파일에 작성하고, `<head>`에 `<script type="text/javascript" src="[파일_이름].js"></script>` 태그를 넣은 HTML 파일을 작성해 해당 웹 페이지를 엽니다.
+  - 개발자 도구의 콘솔(Chrome의 경우, <kbd>F12</kbd> - *Console* 탭)에는 JS 코드를 한 줄씩 실행시킬 수 있는 셸이 있습니다.
+  - JS 코드를 `<script>` 태그로 감싼 HTML 파일을 작성하고 웹 브라우저로 해당 페이지를 엽니다.
+  - JS 코드를 `*.js` 파일에 작성하고, `<head>`에 `<script type="text/javascript" src="[파일_이름].js"></script>` 태그를 넣은 HTML 파일을 작성해 해당 웹 페이지를 엽니다.
 
 `'use strict';`
 
@@ -87,7 +87,7 @@ console.log(1 / -0);  // -Infinity
 
 ##### [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 
-```JavaScript
+```javascript
 console.log(typeof("Hello"));  // string
 console.log('"I\'m Jeongmin Lee"');  // "I'm Jeongmin Lee"
 
@@ -128,9 +128,9 @@ console.log(typeof(undefined));  // undefined
 | `null` | *false* |
 | `""` | *false* |
 | `"something"` | *true* |
-| `"false"` | ** *true* ** |
-| `[]` | ** *true* ** |
-| `{}` | ** *true* ** |
+| `"false"` | <b>*true*</b> |
+| `[]` | <b>*true*</b> |
+| `{}` | <b>*true*</b> |
 
 ##### 조건 연산자
 
@@ -147,7 +147,7 @@ console.log(typeof(undefined));  // undefined
 
 ### Object
 
-Python의 dictionary와 유사한 개념입니다. Object는 여러개의 key-value 쌍을 가질 수 있으며 이 각각을 속성(Property)이라고 부릅니다. key는 식별자여야하지만 value는 number부터 시작해서 또다른 Object나 함수까지 대부분의 표현식을 담을 수 있습니다.
+Python의 dictionary와 유사한 개념입니다. Object는 여러개의 key-value 쌍을 가질 수 있으며 이 각각을 **속성(Property)** 이라고 부릅니다. key는 식별자여야하지만 value는 number부터 시작해서 또다른 Object나 함수까지 대부분의 표현식을 담을 수 있습니다.
 
 ```js
 const circle = {
@@ -545,7 +545,7 @@ jsp.withdraw(-100);
 사실 지금까지 설명한 JS의 적지 않은 부분(`for ... of ...`, `class`, Arrow Function)은 ES6에서 새로 개발된 기능입니다. React로 개발하기 위해서는 ES6 문법에 반드시 익숙해질 필요가 있지만, 웹 페이지에서 JS를 쓸 때는 잊어선 안 될 한 가지 사항이 있습니다.
 
 ![IE11의 ES6 지원률은 11%...](pics/2.png?raw=true)
-* 출처 : http://kangax.github.io/compat-table/es6/
+* 출처 : [http://kangax.github.io/compat-table/es6/](http://kangax.github.io/compat-table/es6/)
 
 만약 "그 브라우저"에서도 문제없이 돌아가는 스크립트를 작성하려면, ES5 표준을 지켜 개발하는 것이 바람직할 것입니다. 또는 ES6 코드를 작성한 다음 [Babel](https://babeljs.io/)과 같은 트랜스컴파일러를 이용해 ES5 코드로 변환하는 방법도 있습니다. 본 세미나에서는 Babel로 트랜스컴파일 하는 과정까지는 다루지 않을 것이지만, 실제로 JS를 작업하실 때는 이를 반드시 염두에 두시길 바랍니다.
 
