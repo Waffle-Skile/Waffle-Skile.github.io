@@ -95,6 +95,7 @@ merge가 되면 성공적으로 과제 제출이 끝난 것입니다.
 * 6조
 * 7조
 * 8조
+  - [kwonsw055](https://github.com/kwonsw055/Asgm2.git)
 * 9조
   - [GBS-Skile](https://github.com/Waffle-Skile/DjangoSimpleCRUDBoard.git)
 * 10조
