@@ -101,6 +101,7 @@ merge가 되면 성공적으로 과제 제출이 끝난 것입니다.
 * 11조
 * 12조
 * 13조
+  -[Blue1256](https://github.com/blue1256/djangoAssignment.git)
 
 ## 도움이 필요하신가요?
 
