@@ -98,6 +98,7 @@ merge가 되면 성공적으로 과제 제출이 끝난 것입니다.
 * 9조
   - [GBS-Skile](https://github.com/Waffle-Skile/DjangoSimpleCRUDBoard.git)
 * 10조
+  - [mushypeas](https://github.com/mushypeas/Django_post.git)(다른 사람의 게시물을 못지우는건 구현되었지만 로그인은 /admin에서만 가능-시간문제로 구현 포기..)
 * 11조
 * 12조
 * 13조
