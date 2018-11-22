@@ -21,7 +21,7 @@
 11월 9일 | [Django (3)](5/)
 11월 16일 |[JavaScript](6/)
 11월 23일 | React (1)
-11월 30일 | React (2) | 과제 3
+11월 30일 | React (2) | [과제 3](../assignment/indiv3/)
 
 ## 세미나 100% 활용하기
 
