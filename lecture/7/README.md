@@ -125,12 +125,14 @@ HTML DOM으로 변환하기 위한 중간 단계를 상징하며 일부 차이�
 `<div>`같은 Container로 한번 더 감싸야 합니다.
 * `{}`안에 JavaScript 표현식을 넣을 수 있습니다. backtick string에서 `${}`와 같은 역할입니다.
 * `{}`안에 null을 넣으면 해석되지 않습니다. 따라서 다음과 같은 조건식을 작성할 수 있습니다.
+
 ```
 <div>
   { condition ? <JsxTag /> : null }
 </div>
 ```
 * map 함수를 이용해서 같은 컴포넌트를 여러번 반복할 수도 있습니다.
+
 ```
 <ul>
   { [...Array(5).keys()].map((x) => <li>{x}</li>) }
