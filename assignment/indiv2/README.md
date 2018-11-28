@@ -89,6 +89,7 @@ merge가 되면 성공적으로 과제 제출이 끝난 것입니다.
 
 * 1조
 * 2조
+  - [choiwy98](https://github.com/choiwy98/assignment2)
 * 3조
 * 4조
   - [stet-stet](https://github.com/stet-stet/waffle-hw2)

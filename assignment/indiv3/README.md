@@ -56,7 +56,9 @@ React Project를 생성하셔도 좋습니다.
 
 ## Sample Source Code
 
-샘플 코드는 8주차 강의 도중 또는 8주차 강의가 끝나는대로 동일한 repository에 업로드하겠습니다.
+[과제 제출 현황](#과제-제출-현황)에서 9조 **GBS-Skile** 에
+세미나장의 샘플 소스 코드가 있습니다.
+다른 분들의 과제도 함께 참고하시면 좋습니다.
 
 ## 제출 방법
 
@@ -89,8 +91,9 @@ React Project를 생성하셔도 좋습니다.
 * 7조
 * 8조
 * 9조
-  - [GBS-Skile](https://github.com/Waffle-Skile/YOUR_REPOSITORY_NAME.git)
+  - [GBS-Skile](https://github.com/Waffle-Skile/WaffleReactSkeleton/tree/735d89488da66688ddee6004e85419b2a21927c4)
 * 10조
 * 11조
+  - [KimHeekon](https://github.com/KimHeekon/WaffleReact)
 * 12조
 * 13조
