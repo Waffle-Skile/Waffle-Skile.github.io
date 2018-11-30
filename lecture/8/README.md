@@ -23,7 +23,7 @@ Specification에 따르면 HobulhoApp은 크게 3가지의 View를 보여줘야�
 ### States
 
 | Component | State | Description |
-| :-------- | :---- | ----------- |
+| :-------- | :---- | :---------- |
 | *HobulhoApp* | `user: ''` | 사용자의 이름 |
 | *HobulhoApp* | `qindex: 0` | 사용자가 답해야 할 문제의 번호 |
 | *HobulhoApp* | `userAnswer: []` | 사용자의 답변 |
