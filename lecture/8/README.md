@@ -21,6 +21,7 @@ Specification에 따르면 HobulhoApp은 크게 3가지의 View를 보여줘야�
 4개의 Component만 고려하도록 하겠습니다.
 
 ### States
+
 | Component | State | Description |
 | :-------- | :---- | ----------- |
 | *HobulhoApp* | `user: ''` | 사용자의 이름 |
