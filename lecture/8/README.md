@@ -56,11 +56,11 @@ React에서 [Cross-Origin Resource Sharing](https://developer.mozilla.org/ko/doc
 ### Install Django REST Framework
 
 Web 기반 API 서버를 구축하기 위해 `djangorestframework`을,
-CORS 정책을 지키기 위해 `django-cors-header`을 설치합니다.
+CORS 정책을 지키기 위해 `django-cors-headers`을 설치합니다.
 
 ```
 $ pip install djangorestframework
-$ pip install django-cors-header
+$ pip install django-cors-headers
 ```
 
 Django 프로젝트를 생성하고 `startapp hobulho`로 앱도 생성합니다.
