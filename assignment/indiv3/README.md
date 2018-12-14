@@ -83,6 +83,7 @@ React Project를 생성하셔도 좋습니다.
 ### 과제 제출 현황
 
 * 1조
+  - [EverIast](https://github.com/Waffle-Skile/WaffleReactSkeleton.git)
 * 2조
 * 3조
 * 4조
