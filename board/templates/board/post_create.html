@@ -1,0 +1,13 @@
+﻿<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Write or Edit</title>
+  </head>
+  <body>
+    <form method="post">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <input type="submit" value="Write">
+    </form>
+  </body>
+</html>

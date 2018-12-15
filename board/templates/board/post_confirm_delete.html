@@ -1,0 +1,14 @@
+﻿<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Delete {{ object.title }}</title>
+</head>
+<body>
+    <form method="post">
+        {% csrf_token %}
+        <p>Delete <b>{{ object.title|escape }}</b>?</p>
+        <input type="password" name="password" value="" required>
+        <input type="submit" name="confirm" value="Confirm">
+    </form>
+</body>
+</html>

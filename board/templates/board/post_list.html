@@ -1,0 +1,40 @@
+﻿<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>PeaceSong's Post List</title>
+</head>
+<body>
+    <h1>Post List</h1>
+    {% if messages %}
+    <ul class="messages">
+        <li>
+        Message:
+        {% for msg in messages %}
+        {{ msg }}
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    <div class="list">
+        <ul>
+            {% for obj in object_list %}
+            <li><a href="{% url 'post_detail' pk=obj.id %}">{{ obj.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="paginator">
+        {% if page_obj.has_previous %}
+        <a href="?page={{ page_obj.previous_page_number }}">Previous</a>
+        {% endif %}
+        <span class="current">
+            Page {{ page_obj.number }} of {{ paginator.num_pages }}.
+        </span>
+        {% if page_obj.has_next %}
+        <a href="?page={{ page_obj.next_page_number }}">Next</a>
+        {% endif %}
+    </div>
+    <div class="footer">
+        <a href="{% url 'post_create' %}">Write New Post</a>
+    </div>
+</body>
+</html>
