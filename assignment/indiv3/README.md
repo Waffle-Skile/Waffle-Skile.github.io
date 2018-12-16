@@ -84,7 +84,10 @@ React Project를 생성하셔도 좋습니다.
 
 * 1조
 * 2조
+  - [choiwy98](https://github.com/choiwy98/assignment3)
+  - [hjbc0921](https://github.com/hjbc0921/waffle_hw3)
 * 3조
+  - [changyoungkwon](https://github.com/changyoungkwon/like-app)
 * 4조
 * 5조
 * 6조
@@ -96,4 +99,5 @@ React Project를 생성하셔도 좋습니다.
 * 11조
   - [KimHeekon](https://github.com/KimHeekon/WaffleReact)
 * 12조
+  - [12kimih](https://github.com/12kimih/Assignment03)
 * 13조

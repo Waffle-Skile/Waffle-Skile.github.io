@@ -58,8 +58,8 @@
 * [6조](https://gompu123.github.io/waffle-team-6/)
 * [7조](https://github.com/Kangji/waffle-7)
 * [8조](https://github.com/ydh1304/team8_assignment1)
-* 9조
+* 9조 (private repository)
 * [10조](https://github.com/Waffle1610/1st_assessment)
 * [11조](https://github.com/calofmijuck/2018WaffleStudio/tree/master/Homework1)
-* 12조
+* [12조](https://github.com/pistolstar1797/Group-12)
 * [13조](https://github.com/blue1256/Waffle13th)

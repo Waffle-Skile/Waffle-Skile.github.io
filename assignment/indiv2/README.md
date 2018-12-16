@@ -89,8 +89,10 @@ merge가 되면 성공적으로 과제 제출이 끝난 것입니다.
 
 * 1조
 * 2조
+  - [hjbc0921](https://github.com/hjbc0921/waffle_hw2)
   - [choiwy98](https://github.com/choiwy98/assignment2)
 * 3조
+  - [changyoungkwon](https://github.com/changyoungkwon/django-crud-app)
 * 4조
   - [stet-stet](https://github.com/stet-stet/waffle-hw2)
 * 5조
@@ -104,6 +106,7 @@ merge가 되면 성공적으로 과제 제출이 끝난 것입니다.
   - [mushypeas](https://github.com/mushypeas/Django_post.git)(다른 사람의 게시물을 못지우는건 구현되었지만 로그인은 /admin에서만 가능-시간문제로 구현 포기..)
 * 11조
 * 12조
+  - [12kimih](https://github.com/12kimih/Assignment02)
 * 13조
   - [Blue1256](https://github.com/blue1256/djangoAssignment.git)
   - [croonjohn](https://github.com/croonjohn/Molba.git)
