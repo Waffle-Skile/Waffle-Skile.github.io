@@ -89,6 +89,7 @@ React Project를 생성하셔도 좋습니다.
 * 3조
   - [changyoungkwon](https://github.com/changyoungkwon/like-app)
 * 4조
+  - [stet-stet](https://github.com/stet-stet/waffle-hw3-v2)
 * 5조
 * 6조
   - [sanggggg](https://github.com/sanggggg/HobulhoPage)
