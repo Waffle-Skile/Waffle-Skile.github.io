@@ -97,6 +97,7 @@ merge가 되면 성공적으로 과제 제출이 끝난 것입니다.
   - [stet-stet](https://github.com/stet-stet/waffle-hw2)
 * 5조
 * 6조
+  - [sanggggg](https://github.com/sanggggg/sang_G)
 * 7조
 * 8조
   - [kwonsw055](https://github.com/kwonsw055/Asgm2.git)
