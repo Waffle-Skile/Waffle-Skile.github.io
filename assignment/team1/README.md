@@ -50,7 +50,7 @@
 
 ### 과제 제출 현황
 
-* 1조
+* [1조](https://github.com/corvuspink/HW1)
 * [2조](https://github.com/Dorvin/testing)
 * [3조](https://github.com/sckimynwa/WaffleHomwork1)
 * [4조](https://github.com/stet-stet/waffle-hw1-group4)
