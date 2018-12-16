@@ -1,0 +1,48 @@
+﻿<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ object.title }}</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>{{ object.title }}</h1>
+    </div>
+    {% if messages %}
+    <ul class="messages">
+      {% for msg in messages %}
+      <li>{{ msg }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    <div class="content">
+      {{ object.content|escape|linebreaks }}
+    </div>
+    <div class="info">
+        <p>
+            Author: {{ object.author }}<br>
+            Created at <em>{{ object.created_at }}</em><br>
+            Modified at <em>{{ object.modified_at }}</em>
+        </p>
+        <p><b>Hit:</b> {{ object.hit }}</p>
+        {% if object.get_previous_by_created_at %}
+        <p>
+            <a href="{% url 'post_detail' object.get_previous_by_created_at.pk %}">
+                Previous - <b>{{ object.get_previous_by_created_at.title }}</b>
+            </a>
+        </p>
+        {% endif %}
+        {% if object.get_next_by_created_at %}
+        <p>
+            <a href="{% url 'post_detail' object.get_next_by_created_at.pk %}">
+                Next - <b>{{ object.get_next_by_created_at.title }}</b>
+            </a>
+        </p>
+        {% endif %}
+    </div>
+    <div class="footer">
+      <a href="{% url 'post_update' object.pk %}">Edit</a>
+      <a href="{% url 'post_list' %}">Back to list</a>
+      <a href="{% url 'post_delete' object.pk %}">Delete</a>
+    </div>
+  </body>
+</html>
