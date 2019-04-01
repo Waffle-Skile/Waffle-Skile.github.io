@@ -178,7 +178,7 @@ class App2 extends Component {
   }
 }
 
-export default App1;
+export default App2;
 ```
 
 * 중간의 `{' = '}`는 양옆 띄어쓰기까지 포함해서 출력하기 위해 사용한 표현식입니다.
@@ -221,9 +221,9 @@ class App3 extends Component {
     return (
       <div>
         <p>
-          <span style={{color: 'blue'}}>{this.state.blue}</span>
+          <span style={ {color: 'blue'} }>{this.state.blue}</span>
           {' : '}
-          <span style={{color: 'red'}}>{this.state.red}</span>
+          <span style={ {color: 'red'} }>{this.state.red}</span>
         </p>
         <p>
           <input type="button"
